@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SGPR:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/SGPR_war</output-path>
+    <root id="archive" name="SGPR_war.war">
+      <element id="artifact" artifact-name="SGPR:war exploded" />
+    </root>
+  </artifact>
+</component>
