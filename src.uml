@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/Doc_HP_RRL/RRL/Sence/Devops/Proyecto Final/SGPR/src</OriginalElement>
+  <nodes>
+    <node x="715.0" y="1654.0">Contenedor</node>
+    <node x="83.5" y="-14.0">VisitaEnTerreno</node>
+    <node x="130.0" y="962.0">Profesional</node>
+    <node x="834.5" y="1894.0">ContenedorTest</node>
+    <node x="299.0" y="254.0">Accidente</node>
+    <node x="610.0" y="914.0">Capacitacion</node>
+    <node x="187.0" y="682.0">Usuario</node>
+    <node x="637.0" y="1930.5">Principal</node>
+    <node x="-80.0" y="278.0">Revision</node>
+    <node x="257.0" y="568.0">Asesoria</node>
+    <node x="941.0" y="1330.5">Validaciones</node>
+    <node x="320.0" y="1282.0">Administrativo</node>
+    <node x="-89.0" y="1210.0">Cliente</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Contenedor" target="Profesional" relationship="CREATE">
+      <point x="-70.5" y="-68.0" />
+      <point x="785.5" y="1602.0" />
+      <point x="496.0" y="1602.0" />
+      <point x="496.0" y="1542.0" />
+      <point x="296.0" y="1542.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="ContenedorTest" target="Validaciones" relationship="TO_ONE">
+      <point x="60.75" y="-68.0" />
+      <point x="1016.75" y="1862.0" />
+      <point x="1016.0" y="1862.0" />
+      <point x="1016.0" y="1842.0" />
+      <point x="1056.0" y="1842.0" />
+      <point x="1056.0" y="1422.0" />
+      <point x="1053.5" y="1422.0" />
+      <point x="37.5" y="31.5" />
+    </edge>
+    <edge source="Usuario" target="Asesoria" relationship="REALIZATION">
+      <point x="0.0" y="-80.0" />
+      <point x="296.0" y="662.0" />
+      <point x="286.5" y="662.0" />
+      <point x="-29.5" y="14.0" />
+    </edge>
+    <edge source="Profesional" target="Usuario" relationship="GENERALIZATION">
+      <point x="0.0" y="-80.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="ContenedorTest" target="Contenedor" relationship="CREATE">
+      <point x="-60.75" y="-68.0" />
+      <point x="895.25" y="1862.0" />
+      <point x="696.0" y="1862.0" />
+      <point x="696.0" y="1622.0" />
+      <point x="785.5" y="1622.0" />
+      <point x="-70.5" y="-68.0" />
+    </edge>
+    <edge source="ContenedorTest" target="Contenedor" relationship="TO_ONE">
+      <point x="60.75" y="-68.0" />
+      <point x="1016.75" y="1862.0" />
+      <point x="1016.0" y="1862.0" />
+      <point x="1016.0" y="1602.0" />
+      <point x="926.5" y="1602.0" />
+      <point x="70.5" y="-68.0" />
+    </edge>
+    <edge source="Contenedor" target="Administrativo" relationship="CREATE">
+      <point x="-70.5" y="-68.0" />
+      <point x="785.5" y="1602.0" />
+      <point x="496.0" y="1602.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="Contenedor" target="Capacitacion" relationship="CREATE">
+      <point x="-70.5" y="-68.0" />
+      <point x="785.5" y="1602.0" />
+      <point x="496.0" y="1602.0" />
+      <point x="496.0" y="1542.0" />
+      <point x="703.0" y="1542.0" />
+      <point x="-93.0" y="128.0" />
+    </edge>
+    <edge source="Administrativo" target="Usuario" relationship="GENERALIZATION">
+      <point x="0.0" y="-80.0" />
+      <point x="496.0" y="942.0" />
+      <point x="296.0" y="942.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="Contenedor" target="Validaciones" relationship="CREATE">
+      <point x="-70.5" y="-68.0" />
+      <point x="785.5" y="1602.0" />
+      <point x="496.0" y="1602.0" />
+      <point x="496.0" y="1542.0" />
+      <point x="978.5" y="1542.0" />
+      <point x="-37.5" y="31.5" />
+    </edge>
+    <edge source="Cliente" target="Usuario" relationship="GENERALIZATION">
+      <point x="0.0" y="-152.0" />
+      <point x="96.0" y="942.0" />
+      <point x="296.0" y="942.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="Contenedor" target="Validaciones" relationship="TO_ONE">
+      <point x="70.5" y="-68.0" />
+      <point x="926.5" y="1622.0" />
+      <point x="936.0" y="1622.0" />
+      <point x="936.0" y="1582.0" />
+      <point x="1056.0" y="1582.0" />
+      <point x="1056.0" y="1422.0" />
+      <point x="1053.5" y="1422.0" />
+      <point x="37.5" y="31.5" />
+    </edge>
+    <edge source="Principal" target="Contenedor" relationship="CREATE">
+      <point x="0.0" y="-31.5" />
+      <point x="696.0" y="1622.0" />
+      <point x="785.5" y="1622.0" />
+      <point x="-70.5" y="-68.0" />
+    </edge>
+    <edge source="Contenedor" target="Asesoria" relationship="TO_MANY">
+      <point x="70.5" y="-68.0" />
+      <point x="926.5" y="1622.0" />
+      <point x="936.0" y="1622.0" />
+      <point x="936.0" y="1562.0" />
+      <point x="1116.0" y="1562.0" />
+      <point x="1116.0" y="662.0" />
+      <point x="345.5" y="662.0" />
+      <point x="29.5" y="14.0" />
+    </edge>
+    <edge source="Contenedor" target="Cliente" relationship="CREATE">
+      <point x="-70.5" y="-68.0" />
+      <point x="785.5" y="1602.0" />
+      <point x="496.0" y="1602.0" />
+      <point x="496.0" y="1542.0" />
+      <point x="96.0" y="1542.0" />
+      <point x="0.0" y="152.0" />
+    </edge>
+    <edge source="Contenedor" target="Capacitacion" relationship="TO_MANY">
+      <point x="70.5" y="-68.0" />
+      <point x="926.5" y="1622.0" />
+      <point x="936.0" y="1622.0" />
+      <point x="936.0" y="1562.0" />
+      <point x="889.0" y="1562.0" />
+      <point x="93.0" y="128.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.3280038759689923" showDependencies="true" x="523.4999999999998" y="1018.0000000000001" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
